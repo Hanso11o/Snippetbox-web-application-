@@ -1,0 +1,25 @@
+
+curl http://localhost:4000/
+
+###
+curl http://localhost:4000/
+
+###
+curl http://localhost:4000/
+
+###
+curl -X "DELETE" http://localhost:4000/
+     
+###
+curl http://localhost:4000/ \
+    --include \
+    --header "Content-Type: application/json" \
+    --request "POST" \
+    --data ''
+
+###
+  curl -X "PUT" http://localhost:4000/ \
+--include \
+--header "Content-Type: application/json" \
+--request "POST" \
+--data 
